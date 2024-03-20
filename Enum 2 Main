@@ -1,0 +1,15 @@
+public enum Week {
+    MONDAY("monday"),TUESDAY("tuesday"),WEDNESDAY("wednesday"),THURSDAY("thursday")
+    ,FRIDAY("friday"),SATURDAY("saturday"),SUNDAY("sunday");
+    private String values;
+
+    Week(String values){
+        this.values=values;
+
+    }
+
+    public String getValues() {
+        return values;
+    }
+
+}
