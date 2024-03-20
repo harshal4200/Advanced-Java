@@ -1,0 +1,16 @@
+public class Test {
+    public static void main(String[] args) {
+        Week w = Week.MONDAY;
+        Week w1 = Week.TUESDAY;
+        Week w2 = Week.WEDNESDAY;
+        Week w3 = Week.THURSDAY;
+        Week w4 = Week.FRIDAY;
+        Week w5 = Week.SATURDAY;
+        Week w6 = Week.SUNDAY;
+
+        for (Week day : Week.values()){
+            System.out.println(day.getValues());
+        }
+        
+    }
+}
